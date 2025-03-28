@@ -2,3 +2,7 @@
 # Ask user to input anything
 # Convert to lower case
 
+text = str(input("Enter whatever: "))
+text = text.swapcase()
+
+print(text)
