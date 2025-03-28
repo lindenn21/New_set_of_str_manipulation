@@ -3,5 +3,6 @@
 # Remove spaces then print
 whitespace = 0
 text = str(input("Enter your name with spaces in the beginning: "))
+if whitespace < len(text):
 text = text.replace(" ", "")
 print(text)
