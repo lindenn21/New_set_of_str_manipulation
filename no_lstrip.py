@@ -7,6 +7,7 @@ if text[0] == " ":
     while whitespace < len(text) and text[whitespace] == " ":
         whitespace += 1
 
+text = text[whitespace:]
 
 
 print(text)
