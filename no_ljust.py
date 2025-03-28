@@ -3,3 +3,4 @@
 # Ask user how far the space should be
 # print
 
+text = input("Input anything: ")
