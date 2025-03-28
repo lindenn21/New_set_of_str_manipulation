@@ -5,3 +5,8 @@
 
 text = str(input("Enter: "))
 prefix = "HELLO"
+
+if text.startswith(prefix):
+
+
+print(text)
