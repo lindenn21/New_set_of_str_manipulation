@@ -5,4 +5,5 @@
 
 text = input("Enter: ")
 end = "e"
+if text[-len(end):] == end:
 
