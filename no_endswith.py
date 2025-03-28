@@ -4,4 +4,5 @@
 # Print true if there is, false if there aren't any
 
 text = input("Enter: ")
+end = "e"
 
