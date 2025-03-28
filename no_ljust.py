@@ -5,3 +5,5 @@
 
 text = input("Input anything: ")
 how_far = int(input("Enter how far the space will go: "))
+
+space = how_far - len(text)
