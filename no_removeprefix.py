@@ -7,6 +7,5 @@ text = str(input("Enter: "))
 prefix = "HELLO"
 
 if text.startswith(prefix):
-
-
+    text = text[len(prefix):]
 print(text)
