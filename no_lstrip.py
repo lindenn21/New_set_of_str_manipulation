@@ -2,3 +2,4 @@
 # Ask user to input
 # Remove spaces then print
 
+text = str(input("Enter your name with spaces in the beginning: "))
