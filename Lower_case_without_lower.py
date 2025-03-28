@@ -3,6 +3,6 @@
 # Convert to lower case
 
 text = str(input("Enter whatever: "))
+text = text.upper()
 text = text.swapcase()
-
 print(text)
