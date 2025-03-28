@@ -3,3 +3,5 @@
 # If its all upper print true
 
 text = str(input("enter: "))
+character = ""
+
