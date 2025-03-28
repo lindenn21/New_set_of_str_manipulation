@@ -3,5 +3,5 @@
 # Check if the word ends with e
 # Print true if there is, false if there aren't any
 
-
+text = input("Enter: ")
 
