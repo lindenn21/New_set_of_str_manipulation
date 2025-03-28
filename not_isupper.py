@@ -5,4 +5,5 @@
 text = str(input("enter: "))
 if text != text.upper():
     print("False")
-
+else:
+    print("True")
