@@ -4,7 +4,7 @@
 whitespace = 0
 text = str(input("Enter your name with spaces in the beginning: "))
 if text[0] == " ":
-    while whitespace < len(text):
+    while whitespace < len(text) and text[whitespace] == " ":
         whitespace += 1
 
 
