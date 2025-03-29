@@ -3,3 +3,7 @@
 # Change small letters to capital and capital to small leters
 # print
 
+text = input("Enter something: ")
+character = []
+for i in text:
+
