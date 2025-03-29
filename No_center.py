@@ -4,3 +4,5 @@
 # Center it based on the amount
 # Print
 
+text = input("Enter: ")
+center1 = int(input("The number of spaces: "))
