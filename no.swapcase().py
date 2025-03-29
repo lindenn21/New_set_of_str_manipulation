@@ -10,4 +10,4 @@ for i in text:
         character.append(i.lower())
     else:
         character.append(i.upper())
-print(text.join(character))
+print(''.join(character))
