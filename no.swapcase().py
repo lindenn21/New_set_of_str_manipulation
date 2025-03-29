@@ -6,4 +6,8 @@
 text = input("Enter something: ")
 character = []
 for i in text:
+    if i.isupper():
+        character.append(i.lower())
+    else:
+        character.append(i.upper())
 
