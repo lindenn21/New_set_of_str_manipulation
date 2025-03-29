@@ -9,3 +9,6 @@ center1 = int(input("The number of spaces: "))
 
 center_to = center1 + len(text)
 center_to2 = center1 + -len(text)
+space = " " + center_to + center_to2
+text += space
+print(text)
