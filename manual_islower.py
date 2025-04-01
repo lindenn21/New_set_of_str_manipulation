@@ -2,4 +2,8 @@
 # Ask user to input
 # If input is lower, print true
 
-text = input("Enter string, this will check if the string you enter is lower case: ")
+text = input("Enter string, this will check if the string you entered is all lower case: ")
+if text == text.lower():
+    print("True")
+else:
+    print("False")
