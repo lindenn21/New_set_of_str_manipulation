@@ -17,7 +17,7 @@ for text in list_word:
         if list_word == count_string:
             count += 1
 
-print(total_count)
+            print(count)
 
 
 
