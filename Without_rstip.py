@@ -6,3 +6,5 @@
 
 text = input("Enter: ")
 whitespace = len(text) - 1
+while whitespace >= 0 and text[whitespace] == " ":
+        whitespace -= 1
