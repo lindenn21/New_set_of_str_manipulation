@@ -4,3 +4,5 @@
 # print
 
 text = input("Enter your name: ")
+spaces = int(input("Enter the amount of spaces you desire:"))
+
