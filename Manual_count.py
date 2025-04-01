@@ -13,6 +13,9 @@ count_string = input("Input the word that you entered and would like to count ho
 for text in list_word:
     count = 0
     strings = text.split()
+    for list_word in strings:
+        if list_word == count_string:
+            count += 1
 
 print(total_count)
 
