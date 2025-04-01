@@ -5,3 +5,6 @@
 # print
 
 text = input("Enter: ")
+lowered_text = text.lower()
+upper = text.swapcase()
+print(upper)
