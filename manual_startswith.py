@@ -3,3 +3,5 @@
 # If the string starts with HELLO, print true
 
 text = input("Enter a string, this will check if you start with HELLO: ")
+beginning = "HELLO"
+if text[:len(beginning)] == beginning:
