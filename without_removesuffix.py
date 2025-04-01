@@ -5,3 +5,6 @@
 
 text = input("Enter:")
 suffix = "e"
+if text.endswith(suffix):
+    text = text[:-len(suffix)]
+print(text)
