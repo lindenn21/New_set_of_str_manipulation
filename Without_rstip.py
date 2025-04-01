@@ -5,3 +5,4 @@
 # print
 
 text = input("Enter: ")
+whitespace = len(text) - 1
