@@ -5,4 +5,6 @@
 
 text = input("Enter your name: ")
 spaces = int(input("Enter the amount of spaces you desire:"))
+manual_rjust = " " * spaces + text
+print(manual_rjust)
 
