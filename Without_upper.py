@@ -6,5 +6,5 @@
 
 text = input("Enter: ")
 lowered_text = text.lower()
-upper = text.swapcase()
+upper = lowered_text.swapcase()
 print(upper)
