@@ -5,3 +5,5 @@
 
 text = input("Enter a string:")
 zeroes = int(input("Enter the number of zeroes you'd like: "))
+zero_string = "0" * zeroes + text
+print(zero_string)
