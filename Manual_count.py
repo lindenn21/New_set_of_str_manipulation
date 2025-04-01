@@ -2,7 +2,7 @@
 # Ask user to input
 # Count how many times the same thing appears
 
-count = 0
+total_count = 0
 list_word = []
 for i in range(5):
     text = input(f"Enter string {i + 1}: ")
@@ -10,6 +10,11 @@ for i in range(5):
 
 count_string = input("Input the word that you entered and would like to count how many times it appeared: ")
 
+for text in list_word:
+    count = 0
+    strings = text.split()
+
+print(total_count)
 
 
 
