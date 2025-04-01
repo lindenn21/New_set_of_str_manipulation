@@ -4,3 +4,4 @@
 # print
 
 text = input("Enter:")
+suffix = "e"
