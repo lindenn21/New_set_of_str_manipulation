@@ -3,3 +3,5 @@
 # Print
 
 text = input("Enter:")
+list_word = text.split()
+
