@@ -5,4 +5,5 @@
 text = input("Enter:")
 list_word = text.split()
 capitalize = [word.capitalize() for word in list_word]
-
+title = ''.join(capitalize)
+print(title)
