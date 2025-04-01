@@ -15,9 +15,10 @@ for text in list_word:
     strings = text.split()
     for list_word in strings:
         if list_word == count_string:
-            count += 1
+            total_count += 1
 
-            print(count)
+
+print(total_count)
 
 
 
