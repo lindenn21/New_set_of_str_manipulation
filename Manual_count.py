@@ -6,6 +6,10 @@ count = 0
 list_word = []
 for i in range(5):
     text = input(f"Enter string {i + 1}: ")
+    list_word.append(text)
+
+count_string = input("Input the word that you entered and would like to count how many times it appeared: ")
+
 
 
 
