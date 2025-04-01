@@ -4,3 +4,4 @@
 # Print the string with zeroes at the beginning
 
 text = input("Enter a string:")
+zeroes = int(input("Enter the number of zeroes you'd like: "))
